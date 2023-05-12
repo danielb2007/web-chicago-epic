@@ -1,0 +1,42 @@
+h1 
+{
+  background: red;
+  color: blue
+}
+body
+{
+ 
+  background: linear-gradient(45deg, #EAF78C,rgb(89, 254, 17), blue);
+}
+
+.boton1
+{
+  background : #47f170;
+  border: 3px solid yellow;
+}
+.boton2
+{
+  background : #47f170;
+  border: 0;
+  border-radius:6px;
+  width: 80px; 
+  height: 80px;
+  cursor: pointer;
+}
+.boton2:hover
+{
+  background : #CCf170;
+  color: red;
+  /*color: red;*/
+}
+
+form
+{
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #40FF19
+}
+
+h1{
+  border: 3px solid #40FF19
+}
